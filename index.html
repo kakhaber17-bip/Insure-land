@@ -1,51 +1,162 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Insure</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <img class="logo" src="icons/logo.svg" alt="" />
-      <div class="links">
-        <a href="">HOW WE WORK</a>
-        <a href="">BLOG</a>
-        <a href="">ACCOUNT</a>
-        <button>VIEW PLANS</button>
-      </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insure | Humanizing your insurance</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="icons/logo.svg" alt="">
+            </div>
+            
+            <nav class="nav-desktop">
+                <ul class="nav-list">
+                    <li><a href="#">HOW WE WORK</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">ACCOUNT</a></li>
+                    <li><a href="#" class="btn-view-plans">VIEW PLANS</a></li>
+                </ul>
+            </nav>
+            
+            <button class="hamburger-btn">
+                <img src="images/icon-hamburger.svg" alt="Menu" class="hamburger-icon">
+                <img src="images/icon-close.svg" alt="Close" class="close-icon" style="display: none;">
+            </button>
+        </div>
     </header>
-    <section class="sec-1">
-      <div class="left">
-        <h1>
-          Humanizing <br />
-          your insurance.
-        </h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci
-          fuga dolorem, ab, sapiente dolorum ducimus eaque aut quisquam iusto,
-          doloremque eius sint alias mollitia suscipit repellendus cumque
-          possimus esse enim.
-        </p>
-        <button>VIEW PLANS</button>
-      </div>
-      <div class="right">
-        <img src="images/image-intro-desktop.jpg" alt="" />
-      </div>
 
-      <img
-        class="left-stripes"
-        src="bg/bg-pattern-intro-left-desktop.svg"
-        alt=""
-      />
-      <img
-        class="right-stripes"
-        src="bg/bg-pattern-intro-right-desktop.svg"
-        alt=""
-      />
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="hero-title">Humanizing your insurance.</h2>
+                <p class="hero-text">
+                    Get your life insurance coverage easier and faster. We blend our expertise 
+                    and technology to help you find the plan that's right for you. Ensure you 
+                    and your loved ones are protected.
+                </p>
+                <a href="#" class="btn-primary">VIEW PLANS</a>
+            </div>
+            
+            <div class="hero-image">
+                <img src="images/image-intro-desktop.jpg" alt="">
+            </div>
+        </div>
     </section>
-    <main></main>
-    <footer></footer>
-  </body>
+
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">We're different</h2>
+            
+            <div class="features-grid">
+                <div class="feature">
+                    <div class="feature-icon">
+                        <img src="icons/icon-snappy-process.svg" alt="Snappy Process">
+                    </div>
+                    <h3 class="feature-title">Snappy Process</h3>
+                    <p class="feature-text">
+                        Our application process can be completed in minutes, not hours. 
+                        Don't get stuck filling in tedious forms.
+                    </p>
+                </div>
+                
+                <div class="feature">
+                    <div class="feature-icon">
+                        <img src="icons/icon-affordable-prices.svg" alt="Affordable Prices">
+                    </div>
+                    <h3 class="feature-title">Affordable Prices</h3>
+                    <p class="feature-text">
+                        We don't want you worrying about high monthly costs. Our prices 
+                        may be low, but we still offer the best coverage possible.
+                    </p>
+                </div>
+                
+                <div class="feature">
+                    <div class="feature-icon">
+                        <img src="icons/icon-people-first.svg" alt="People First">
+                    </div>
+                    <h3 class="feature-title">People First</h3>
+                    <p class="feature-text">
+                        Our plans aren't full of conditions and clauses to prevent payouts. 
+                        We make sure you're covered when you need it.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Find out more about how we work</h2>
+                <a href="#" class="btn-cta">HOW WE WORK</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-logo">
+                    <img src="icons/logo.svg" alt="Insure Logo">
+                </div>
+                
+                <div class="social-links">
+                    <a href="#"><img src="icons/icon-facebook.svg" alt="Facebook"></a>
+                    <a href="#"><img src="icons/icon-twitter.svg" alt="Twitter"></a>
+                    <a href="#"><img src="icons/icon-pinterest.svg" alt="Pinterest"></a>
+                    <a href="#"><img src="icons/icon-instagram.svg" alt="Instagram"></a>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <div class="link-group">
+                    <h4 class="link-group-title">Our company</h4>
+                    <ul class="link-list">
+                        <li><a href="#">How we work</a></li>
+                        <li><a href="#">Why Insure?</a></li>
+                        <li><a href="#">View plans</a></li>
+                        <li><a href="#">Reviews</a></li>
+                    </ul>
+                </div>
+                
+                <div class="link-group">
+                    <h4 class="link-group-title">Help me</h4>
+                    <ul class="link-list">
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Terms of use</a></li>
+                        <li><a href="#">Privacy policy</a></li>
+                        <li><a href="#">Cookies</a></li>
+                    </ul>
+                </div>
+                
+                <div class="link-group">
+                    <h4 class="link-group-title">Contact</h4>
+                    <ul class="link-list">
+                        <li><a href="#">Sales</a></li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Live chat</a></li>
+                    </ul>
+                </div>
+                
+                <div class="link-group">
+                    <h4 class="link-group-title">Others</h4>
+                    <ul class="link-list">
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Licenses</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Insure. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
 </html>
